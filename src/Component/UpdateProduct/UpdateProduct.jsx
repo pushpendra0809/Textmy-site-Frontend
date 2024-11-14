@@ -18,7 +18,7 @@ const UpdateProduct = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await axios.get(`http://localhost:8000/user/products/${productId}`);
+        const response = await axios.get(`https://textmy-site-backend.onrender.com/user/products/${productId}`);
         const fetchedProduct = response.data.result;
         setProduct({
           productname: fetchedProduct.productname,
@@ -55,7 +55,7 @@ const UpdateProduct = () => {
     }
   
     try {
-      const response = await axios.put(`http://localhost:8000/user/products/${productId}`, formData, {
+      const response = await axios.put(`https://textmy-site-backend.onrender.com/user/products/${productId}`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }

@@ -41,7 +41,7 @@ const Addproduct = () => {
     });
 
     try {
-      const response = await axios.post('http://localhost:8000/user/products/', formData, {
+      const response = await axios.post('https://textmy-site-backend.onrender.com/user/products/', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

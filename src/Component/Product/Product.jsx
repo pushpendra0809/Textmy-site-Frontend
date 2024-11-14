@@ -10,7 +10,7 @@ const Product = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/user/products/'); 
+        const response = await axios.get('https://textmy-site-backend.onrender.com/user/products/'); 
         setData(response.data.result); 
       } catch (error) {
          console.error(error.message)
@@ -23,7 +23,7 @@ const Product = () => {
 
   const handleDelete = async (id) => {
     try {
-      const response = await axios.delete(`http://localhost:8000/user/products/${id}`);
+      const response = await axios.delete(`https://textmy-site-backend.onrender.com/user/products/${id}`);
       alert(response.data.message); // Show success message
       // Remove the deleted product from the state to update the UI
       setData(data.filter(product => product._id !== id));

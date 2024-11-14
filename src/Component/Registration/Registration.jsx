@@ -27,7 +27,7 @@ const Registration = () => {
     setMessage('');
 
     try {
-      const response = await axios.post('http://localhost:8000/user/registration/', formData);
+      const response = await axios.post('https://textmy-site-backend.onrender.com/user/registration/', formData);
       setMessage(response.data.message);
       if (response.data.token) {
         localStorage.setItem('token', response.data.token);
