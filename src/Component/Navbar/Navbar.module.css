@@ -1,0 +1,42 @@
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:28%;
+    background-color: aliceblue;
+    padding: 15px;
+}
+.iteam1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iteam2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+}
+.iteam2 li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.iteam2 li Link{
+    
+    text-decoration: none;
+}
+.iteam3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.button{
+    width: 5vw;
+    height: 5vh;
+    border-radius: 20px;
+}

@@ -1,0 +1,77 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.card h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0 2% 0;
+
+}
+.CardIteam{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    border:2px solid gray;
+   /* margin: 10px; */
+   padding: 10px;
+}
+.iteam{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    margin: 0 0 0 30px;
+}
+.iteam h4{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    line-height: 0;
+    margin: 0;
+}
+.iteam2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+}
+.iteam2 img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.Starbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.showButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin:200px ;
+}
+.showButton button{
+    width: 8%;
+    height: 5vh;
+    border-radius: 20px;
+}

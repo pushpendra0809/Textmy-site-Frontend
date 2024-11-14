@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.mainCard{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 2%;
+    border: 5px solid gray;
+
+}
+.mainCard label{
+    margin:0 0  5px 0;
+}
+.mainCard input{
+    margin:0 0  10px 0;
+    width: 99%;
+}
+.checked{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-left: -45% !important;
+}

@@ -1,0 +1,42 @@
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iteam{
+    width: 25%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iteam1{
+    width: 25%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0 0 0;
+}
+.iteam2{
+    width: 25%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 20px 0 0;
+
+}
+.iteam3{
+    width: 25%;
+    /* padding: 2px 0; */
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.iteam3 img{
+     width: 100%;
+     height: 7.7vh;
+}
